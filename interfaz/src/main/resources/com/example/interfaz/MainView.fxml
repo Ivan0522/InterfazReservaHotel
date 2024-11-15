@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="465.0" prefWidth="371.0" spacing="15" style="-fx-padding: 20; -fx-font-size: 14px;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interfaz.ReservaHotel">
+
+    <ImageView fitHeight="274.0" fitWidth="308.0">
+        <image>
+            <Image url="@Hotel.jpg" />
+        </image>
+    </ImageView>
+
+    <Button fx:id="btnReservas" onAction="#abrirReservas" style="-fx-font-size: 16px;" text="Reservas" />
+    <Button fx:id="btnSalirAplicacion" onAction="#salirAplicacion" style="-fx-font-size: 16px;" text="Salir" />
+
+</VBox>

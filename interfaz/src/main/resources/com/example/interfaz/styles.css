@@ -1,0 +1,14 @@
+#btnVolver {
+    -fx-background-color: #ffb013;
+    -fx-border-color: #5e5e5e;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 6px;
+}
+
+#btnVolver:hover {
+    -fx-background-color: #5e5e5e;  /* Color más intenso al pasar el ratón */
+    -fx-border-color: #ffb013;  /* Borde más claro al pasar el ratón */
+    -fx-text-fill: #ffb013;
+    -fx-cursor: hand; /* Cambia el cursor a mano para indicar interactividad */
+}
